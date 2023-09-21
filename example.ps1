@@ -91,3 +91,6 @@ $text2 = Add-TextBlock $null "右のラベル" "8, 8, 8, 8"
 $grid = Add-ColumnGrid $mainPanel @($star1, $star1) @($text1, $text2)
 
 $window.ShowDialog() | Out-Null
+
+# Add-Type -AssemblyName PresentationFramework
+
